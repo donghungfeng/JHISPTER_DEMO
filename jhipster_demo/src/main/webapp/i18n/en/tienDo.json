@@ -1,0 +1,26 @@
+{
+  "jhispterDemoApp": {
+    "tienDo": {
+      "home": {
+        "title": "Tien Dos",
+        "createLabel": "Create a new Tien Do",
+        "createOrEditLabel": "Create or edit a Tien Do",
+        "notFound": "No Tien Dos found"
+      },
+      "created": "A new Tien Do is created with identifier {{ param }}",
+      "updated": "A Tien Do is updated with identifier {{ param }}",
+      "deleted": "A Tien Do is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Tien Do {{ id }}?"
+      },
+      "detail": {
+        "title": "Tien Do"
+      },
+      "tienDoHoanThanh": "Tien Do Hoan Thanh",
+      "moTa": "Mo Ta",
+      "ngayCapNhat": "Ngay Cap Nhat",
+      "fileAttach": "File Attach",
+      "deTai": "De Tai"
+    }
+  }
+}

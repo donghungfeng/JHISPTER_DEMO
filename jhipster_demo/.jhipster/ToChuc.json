@@ -1,0 +1,30 @@
+{
+    "name": "ToChuc",
+    "fields": [
+        {
+            "fieldName": "tenToChuc",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "officer",
+            "otherEntityRelationshipName": "toChuc",
+            "relationshipName": "officer"
+        }
+    ],
+    "changelogDate": "20191202093150",
+    "entityTableName": "to_chuc",
+    "dto": "no",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

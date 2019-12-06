@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <!--
+        Added the constraints for entity DeTai.
+    -->
+    <changeSet id="20191202093200-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="officer_id"
+                                 baseTableName="de_tai"
+                                 constraintName="fk_de_tai_officer_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="officer"/>
+
+        <addForeignKeyConstraint baseColumnNames="trang_thai_id"
+                                 baseTableName="de_tai"
+                                 constraintName="fk_de_tai_trang_thai_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="trang_thai"/>
+
+        <addForeignKeyConstraint baseColumnNames="cap_de_tai_id"
+                                 baseTableName="de_tai"
+                                 constraintName="fk_de_tai_cap_de_tai_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="cap_de_tai"/>
+
+        <addForeignKeyConstraint baseColumnNames="xep_loai_id"
+                                 baseTableName="de_tai"
+                                 constraintName="fk_de_tai_xep_loai_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="xep_loai"/>
+
+    </changeSet>
+</databaseChangeLog>

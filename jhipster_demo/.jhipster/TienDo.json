@@ -1,0 +1,51 @@
+{
+    "name": "TienDo",
+    "fields": [
+        {
+            "fieldName": "tienDoHoanThanh",
+            "fieldType": "Integer",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "moTa",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "ngayCapNhat",
+            "fieldType": "LocalDate",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "fileAttach",
+            "otherEntityRelationshipName": "tienDo",
+            "relationshipName": "fileAttach"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "deTai",
+            "otherEntityRelationshipName": "tienDo",
+            "relationshipName": "deTai",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20191202093158",
+    "entityTableName": "tien_do",
+    "dto": "no",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

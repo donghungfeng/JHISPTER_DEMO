@@ -1,0 +1,30 @@
+{
+    "name": "XepLoai",
+    "fields": [
+        {
+            "fieldName": "tenXepLoai",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "deTai",
+            "otherEntityRelationshipName": "xepLoai",
+            "relationshipName": "deTai"
+        }
+    ],
+    "changelogDate": "20191202093154",
+    "entityTableName": "xep_loai",
+    "dto": "no",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

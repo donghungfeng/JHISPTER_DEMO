@@ -1,0 +1,29 @@
+{
+  "jhispterDemoApp": {
+    "officer": {
+      "home": {
+        "title": "Officers",
+        "createLabel": "Create a new Officer",
+        "createOrEditLabel": "Create or edit a Officer",
+        "notFound": "No Officers found"
+      },
+      "created": "A new Officer is created with identifier {{ param }}",
+      "updated": "A Officer is updated with identifier {{ param }}",
+      "deleted": "A Officer is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Officer {{ id }}?"
+      },
+      "detail": {
+        "title": "Officer"
+      },
+      "tenNhanSu": "Ten Nhan Su",
+      "dienThoai": "Dien Thoai",
+      "email": "Email",
+      "fax": "Fax",
+      "diaChi": "Dia Chi",
+      "deTai": "De Tai",
+      "nhanSuTG": "Nhan Su TG",
+      "toChuc": "To Chuc"
+    }
+  }
+}

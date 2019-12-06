@@ -1,0 +1,23 @@
+{
+  "jhispterDemoApp": {
+    "capDeTai": {
+      "home": {
+        "title": "Cap De Tais",
+        "createLabel": "Thêm mới một Cap De Tai",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Cap De Tai",
+        "notFound": "No Cap De Tais found"
+      },
+      "created": "Một Cap De Tai mới được tạo với định danh {{ param }}",
+      "updated": "Một Cap De Tai cập nhật với định danh {{ param }}",
+      "deleted": "Một Cap De Tai đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Cap De Tai {{ id }}?"
+      },
+      "detail": {
+        "title": "Cap De Tai"
+      },
+      "tenCapDeTai": "Ten Cap De Tai",
+      "deTai": "De Tai"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "jhispterDemoApp": {
+    "trangThai": {
+      "home": {
+        "title": "Trang Thais",
+        "createLabel": "Thêm mới một Trang Thai",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Trang Thai",
+        "notFound": "No Trang Thais found"
+      },
+      "created": "Một Trang Thai mới được tạo với định danh {{ param }}",
+      "updated": "Một Trang Thai cập nhật với định danh {{ param }}",
+      "deleted": "Một Trang Thai đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Trang Thai {{ id }}?"
+      },
+      "detail": {
+        "title": "Trang Thai"
+      },
+      "tenTrangThai": "Ten Trang Thai",
+      "deTai": "De Tai"
+    }
+  }
+}

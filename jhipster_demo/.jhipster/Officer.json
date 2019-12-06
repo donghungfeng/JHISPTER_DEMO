@@ -1,0 +1,68 @@
+{
+    "name": "Officer",
+    "fields": [
+        {
+            "fieldName": "tenNhanSu",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "dienThoai",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "email",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "fax",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "diaChi",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "deTai",
+            "otherEntityRelationshipName": "officer",
+            "relationshipName": "deTai"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "nhanSuTG",
+            "otherEntityRelationshipName": "officer",
+            "relationshipName": "nhanSuTG"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "toChuc",
+            "otherEntityRelationshipName": "officer",
+            "relationshipName": "toChuc",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20191202093151",
+    "entityTableName": "officer",
+    "dto": "no",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

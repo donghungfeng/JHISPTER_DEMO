@@ -1,0 +1,132 @@
+{
+    "name": "DeTai",
+    "fields": [
+        {
+            "fieldName": "maDeTai",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "tenDeTai",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "mucTieu",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "ngayBDDuKien",
+            "fieldType": "LocalDate",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "ngayKTDuKien",
+            "fieldType": "LocalDate",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "kinhPhiDuKien",
+            "fieldType": "Double",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "noiDungTongQuan",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "kinhPhiHoanThanh",
+            "fieldType": "Double"
+        },
+        {
+            "fieldName": "tongDiem",
+            "fieldType": "Double"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "duToan",
+            "otherEntityRelationshipName": "deTai",
+            "relationshipName": "duToan"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "tienDo",
+            "otherEntityRelationshipName": "deTai",
+            "relationshipName": "tienDo"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "danhGia",
+            "otherEntityRelationshipName": "deTai",
+            "relationshipName": "danhGia"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "fileAttach",
+            "otherEntityRelationshipName": "deTai",
+            "relationshipName": "fileAttach"
+        },
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "nhanSuTG",
+            "otherEntityRelationshipName": "deTai",
+            "relationshipName": "nhanSuTG"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "officer",
+            "otherEntityRelationshipName": "deTai",
+            "relationshipName": "officer",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "trangThai",
+            "otherEntityRelationshipName": "deTai",
+            "relationshipName": "trangThai",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "capDeTai",
+            "otherEntityRelationshipName": "deTai",
+            "relationshipName": "capDeTai",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "xepLoai",
+            "otherEntityRelationshipName": "deTai",
+            "relationshipName": "xepLoai",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20191202093200",
+    "entityTableName": "de_tai",
+    "dto": "no",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

@@ -1,0 +1,30 @@
+{
+    "name": "TrangThai",
+    "fields": [
+        {
+            "fieldName": "tenTrangThai",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "deTai",
+            "otherEntityRelationshipName": "trangThai",
+            "relationshipName": "deTai"
+        }
+    ],
+    "changelogDate": "20191202093153",
+    "entityTableName": "trang_thai",
+    "dto": "no",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

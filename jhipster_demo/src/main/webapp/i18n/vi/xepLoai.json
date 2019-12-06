@@ -1,0 +1,23 @@
+{
+  "jhispterDemoApp": {
+    "xepLoai": {
+      "home": {
+        "title": "Xep Loais",
+        "createLabel": "Thêm mới một Xep Loai",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Xep Loai",
+        "notFound": "No Xep Loais found"
+      },
+      "created": "Một Xep Loai mới được tạo với định danh {{ param }}",
+      "updated": "Một Xep Loai cập nhật với định danh {{ param }}",
+      "deleted": "Một Xep Loai đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Xep Loai {{ id }}?"
+      },
+      "detail": {
+        "title": "Xep Loai"
+      },
+      "tenXepLoai": "Ten Xep Loai",
+      "deTai": "De Tai"
+    }
+  }
+}

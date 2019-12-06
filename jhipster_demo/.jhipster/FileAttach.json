@@ -1,0 +1,53 @@
+{
+    "name": "FileAttach",
+    "fields": [
+        {
+            "fieldName": "moTa",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "noiDung",
+            "fieldType": "byte[]",
+            "fieldTypeBlobContent": "any",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "ngayCapNhat",
+            "fieldType": "LocalDate",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "deTai",
+            "otherEntityRelationshipName": "fileAttach",
+            "relationshipName": "deTai",
+            "otherEntityField": "id"
+        },
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "tienDo",
+            "otherEntityRelationshipName": "fileAttach",
+            "relationshipName": "tienDo",
+            "otherEntityField": "id"
+        }
+    ],
+    "changelogDate": "20191202093159",
+    "entityTableName": "file_attach",
+    "dto": "no",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

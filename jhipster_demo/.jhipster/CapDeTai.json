@@ -1,0 +1,30 @@
+{
+    "name": "CapDeTai",
+    "fields": [
+        {
+            "fieldName": "tenCapDeTai",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "one-to-many",
+            "otherEntityName": "deTai",
+            "otherEntityRelationshipName": "capDeTai",
+            "relationshipName": "deTai"
+        }
+    ],
+    "changelogDate": "20191202093152",
+    "entityTableName": "cap_de_tai",
+    "dto": "no",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": "*"
+}

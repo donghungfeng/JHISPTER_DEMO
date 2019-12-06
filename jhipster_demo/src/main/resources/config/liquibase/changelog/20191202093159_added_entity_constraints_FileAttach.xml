@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.6.xsd">
+    <!--
+        Added the constraints for entity FileAttach.
+    -->
+    <changeSet id="20191202093159-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="de_tai_id"
+                                 baseTableName="file_attach"
+                                 constraintName="fk_file_attach_de_tai_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="de_tai"/>
+
+        <addForeignKeyConstraint baseColumnNames="tien_do_id"
+                                 baseTableName="file_attach"
+                                 constraintName="fk_file_attach_tien_do_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="tien_do"/>
+
+    </changeSet>
+</databaseChangeLog>

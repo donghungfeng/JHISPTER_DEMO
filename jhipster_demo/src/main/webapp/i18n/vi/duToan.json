@@ -1,0 +1,24 @@
+{
+  "jhispterDemoApp": {
+    "duToan": {
+      "home": {
+        "title": "Du Toans",
+        "createLabel": "Thêm mới một Du Toan",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Du Toan",
+        "notFound": "No Du Toans found"
+      },
+      "created": "Một Du Toan mới được tạo với định danh {{ param }}",
+      "updated": "Một Du Toan cập nhật với định danh {{ param }}",
+      "deleted": "Một Du Toan đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Du Toan {{ id }}?"
+      },
+      "detail": {
+        "title": "Du Toan"
+      },
+      "loaiDuToan": "Loai Du Toan",
+      "duToan": "Du Toan",
+      "deTai": "De Tai"
+    }
+  }
+}

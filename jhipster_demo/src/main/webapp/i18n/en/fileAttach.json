@@ -1,0 +1,26 @@
+{
+  "jhispterDemoApp": {
+    "fileAttach": {
+      "home": {
+        "title": "File Attaches",
+        "createLabel": "Create a new File Attach",
+        "createOrEditLabel": "Create or edit a File Attach",
+        "notFound": "No File Attaches found"
+      },
+      "created": "A new File Attach is created with identifier {{ param }}",
+      "updated": "A File Attach is updated with identifier {{ param }}",
+      "deleted": "A File Attach is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete File Attach {{ id }}?"
+      },
+      "detail": {
+        "title": "File Attach"
+      },
+      "moTa": "Mo Ta",
+      "noiDung": "Noi Dung",
+      "ngayCapNhat": "Ngay Cap Nhat",
+      "deTai": "De Tai",
+      "tienDo": "Tien Do"
+    }
+  }
+}

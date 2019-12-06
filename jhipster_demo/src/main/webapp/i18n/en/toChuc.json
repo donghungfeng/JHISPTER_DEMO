@@ -1,0 +1,23 @@
+{
+  "jhispterDemoApp": {
+    "toChuc": {
+      "home": {
+        "title": "To Chucs",
+        "createLabel": "Create a new To Chuc",
+        "createOrEditLabel": "Create or edit a To Chuc",
+        "notFound": "No To Chucs found"
+      },
+      "created": "A new To Chuc is created with identifier {{ param }}",
+      "updated": "A To Chuc is updated with identifier {{ param }}",
+      "deleted": "A To Chuc is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete To Chuc {{ id }}?"
+      },
+      "detail": {
+        "title": "To Chuc"
+      },
+      "tenToChuc": "Ten To Chuc",
+      "officer": "Officer"
+    }
+  }
+}

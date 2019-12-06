@@ -1,0 +1,24 @@
+{
+  "jhispterDemoApp": {
+    "duToan": {
+      "home": {
+        "title": "Du Toans",
+        "createLabel": "Create a new Du Toan",
+        "createOrEditLabel": "Create or edit a Du Toan",
+        "notFound": "No Du Toans found"
+      },
+      "created": "A new Du Toan is created with identifier {{ param }}",
+      "updated": "A Du Toan is updated with identifier {{ param }}",
+      "deleted": "A Du Toan is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Du Toan {{ id }}?"
+      },
+      "detail": {
+        "title": "Du Toan"
+      },
+      "loaiDuToan": "Loai Du Toan",
+      "duToan": "Du Toan",
+      "deTai": "De Tai"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "jhispterDemoApp": {
+    "tienDo": {
+      "home": {
+        "title": "Tien Dos",
+        "createLabel": "Thêm mới một Tien Do",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Tien Do",
+        "notFound": "No Tien Dos found"
+      },
+      "created": "Một Tien Do mới được tạo với định danh {{ param }}",
+      "updated": "Một Tien Do cập nhật với định danh {{ param }}",
+      "deleted": "Một Tien Do đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Tien Do {{ id }}?"
+      },
+      "detail": {
+        "title": "Tien Do"
+      },
+      "tienDoHoanThanh": "Tien Do Hoan Thanh",
+      "moTa": "Mo Ta",
+      "ngayCapNhat": "Ngay Cap Nhat",
+      "fileAttach": "File Attach",
+      "deTai": "De Tai"
+    }
+  }
+}

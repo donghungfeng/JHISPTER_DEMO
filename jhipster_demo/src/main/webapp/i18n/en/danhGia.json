@@ -1,0 +1,24 @@
+{
+  "jhispterDemoApp": {
+    "danhGia": {
+      "home": {
+        "title": "Danh Gias",
+        "createLabel": "Create a new Danh Gia",
+        "createOrEditLabel": "Create or edit a Danh Gia",
+        "notFound": "No Danh Gias found"
+      },
+      "created": "A new Danh Gia is created with identifier {{ param }}",
+      "updated": "A Danh Gia is updated with identifier {{ param }}",
+      "deleted": "A Danh Gia is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Danh Gia {{ id }}?"
+      },
+      "detail": {
+        "title": "Danh Gia"
+      },
+      "loaiDanhGia": "Loai Danh Gia",
+      "diemDanhGia": "Diem Danh Gia",
+      "deTai": "De Tai"
+    }
+  }
+}

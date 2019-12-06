@@ -1,0 +1,29 @@
+{
+  "jhispterDemoApp": {
+    "officer": {
+      "home": {
+        "title": "Officers",
+        "createLabel": "Thêm mới một Officer",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Officer",
+        "notFound": "No Officers found"
+      },
+      "created": "Một Officer mới được tạo với định danh {{ param }}",
+      "updated": "Một Officer cập nhật với định danh {{ param }}",
+      "deleted": "Một Officer đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Officer {{ id }}?"
+      },
+      "detail": {
+        "title": "Officer"
+      },
+      "tenNhanSu": "Ten Nhan Su",
+      "dienThoai": "Dien Thoai",
+      "email": "Email",
+      "fax": "Fax",
+      "diaChi": "Dia Chi",
+      "deTai": "De Tai",
+      "nhanSuTG": "Nhan Su TG",
+      "toChuc": "To Chuc"
+    }
+  }
+}

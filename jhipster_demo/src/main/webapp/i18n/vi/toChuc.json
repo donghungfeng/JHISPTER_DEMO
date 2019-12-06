@@ -1,0 +1,23 @@
+{
+  "jhispterDemoApp": {
+    "toChuc": {
+      "home": {
+        "title": "To Chucs",
+        "createLabel": "Thêm mới một To Chuc",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật To Chuc",
+        "notFound": "No To Chucs found"
+      },
+      "created": "Một To Chuc mới được tạo với định danh {{ param }}",
+      "updated": "Một To Chuc cập nhật với định danh {{ param }}",
+      "deleted": "Một To Chuc đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa To Chuc {{ id }}?"
+      },
+      "detail": {
+        "title": "To Chuc"
+      },
+      "tenToChuc": "Ten To Chuc",
+      "officer": "Officer"
+    }
+  }
+}

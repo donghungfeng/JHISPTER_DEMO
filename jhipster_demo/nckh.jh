@@ -1,0 +1,113 @@
+
+entity ToChuc {
+	TenToChuc String required
+}
+
+entity Officer {
+	TenNhanSu String required
+    DienThoai String required
+    Email String required
+    Fax String 
+    DiaChi String required
+}
+
+entity CapDeTai {
+	TenCapDeTai String required
+}
+
+entity TrangThai {
+	TenTrangThai String required
+}
+
+entity XepLoai {
+	TenXepLoai String required
+}
+
+entity DanhGia {
+	LoaiDanhGia Integer required
+    DiemDanhGia Integer required
+}
+
+entity NhanSuTG {
+	VaiTro String required
+}
+
+entity DuToan {
+	LoaiDuToan Integer required
+    DuToan Double required
+}
+
+entity TienDo {
+	TienDoHoanThanh Integer required
+    MoTa String required
+    NgayCapNhat LocalDate required
+}
+
+entity FileAttach {
+	MoTa String required
+    NoiDung Blob required
+    NgayCapNhat LocalDate required
+}
+
+entity DeTai {
+	MaDeTai String required
+    TenDeTai String required
+    MucTieu String required
+    NgayBDDuKien LocalDate required
+    NgayKTDuKien LocalDate required
+    KinhPhiDuKien Double required
+    NoiDungTongQuan String required
+    KinhPhiHoanThanh Double
+    TongDiem Double
+}
+
+relationship OneToMany {
+	ToChuc{officer} to Officer
+}
+
+relationship OneToMany {
+	Officer{deTai} to DeTai
+}
+
+relationship OneToMany {
+	TrangThai{deTai} to DeTai
+}
+
+relationship OneToMany {
+	CapDeTai{deTai} to DeTai
+}
+
+relationship OneToMany {
+	XepLoai{deTai} to DeTai
+}
+
+relationship OneToMany {
+	DeTai{duToan} to DuToan
+}
+
+relationship OneToMany {
+	DeTai{tienDo} to TienDo
+}
+relationship OneToMany {
+	DeTai{danhGia} to DanhGia
+}
+
+relationship OneToMany {
+	DeTai{fileAttach} to FileAttach
+}
+
+relationship OneToMany {
+	TienDo{fileAttach} to FileAttach
+}
+
+relationship OneToMany {
+	Officer{nhanSuTG} to NhanSuTG
+}
+relationship OneToMany {
+	DeTai{nhanSuTG} to NhanSuTG
+}
+
+service all with serviceImpl
+
+
+

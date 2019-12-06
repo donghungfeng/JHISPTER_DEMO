@@ -1,0 +1,39 @@
+{
+  "jhispterDemoApp": {
+    "deTai": {
+      "home": {
+        "title": "De Tais",
+        "createLabel": "Thêm mới một De Tai",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật De Tai",
+        "notFound": "No De Tais found"
+      },
+      "created": "Một De Tai mới được tạo với định danh {{ param }}",
+      "updated": "Một De Tai cập nhật với định danh {{ param }}",
+      "deleted": "Một De Tai đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa De Tai {{ id }}?"
+      },
+      "detail": {
+        "title": "De Tai"
+      },
+      "maDeTai": "Ma De Tai",
+      "tenDeTai": "Ten De Tai",
+      "mucTieu": "Muc Tieu",
+      "ngayBDDuKien": "Ngay BD Du Kien",
+      "ngayKTDuKien": "Ngay KT Du Kien",
+      "kinhPhiDuKien": "Kinh Phi Du Kien",
+      "noiDungTongQuan": "Noi Dung Tong Quan",
+      "kinhPhiHoanThanh": "Kinh Phi Hoan Thanh",
+      "tongDiem": "Tong Diem",
+      "duToan": "Du Toan",
+      "tienDo": "Tien Do",
+      "danhGia": "Danh Gia",
+      "fileAttach": "File Attach",
+      "nhanSuTG": "Nhan Su TG",
+      "officer": "Officer",
+      "trangThai": "Trang Thai",
+      "capDeTai": "Cap De Tai",
+      "xepLoai": "Xep Loai"
+    }
+  }
+}

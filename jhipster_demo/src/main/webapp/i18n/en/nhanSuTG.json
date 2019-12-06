@@ -1,0 +1,24 @@
+{
+  "jhispterDemoApp": {
+    "nhanSuTG": {
+      "home": {
+        "title": "Nhan Su TGS",
+        "createLabel": "Create a new Nhan Su TG",
+        "createOrEditLabel": "Create or edit a Nhan Su TG",
+        "notFound": "No Nhan Su TGS found"
+      },
+      "created": "A new Nhan Su TG is created with identifier {{ param }}",
+      "updated": "A Nhan Su TG is updated with identifier {{ param }}",
+      "deleted": "A Nhan Su TG is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Nhan Su TG {{ id }}?"
+      },
+      "detail": {
+        "title": "Nhan Su TG"
+      },
+      "vaiTro": "Vai Tro",
+      "officer": "Officer",
+      "deTai": "De Tai"
+    }
+  }
+}

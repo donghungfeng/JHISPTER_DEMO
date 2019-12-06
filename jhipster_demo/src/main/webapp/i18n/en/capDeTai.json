@@ -1,0 +1,23 @@
+{
+  "jhispterDemoApp": {
+    "capDeTai": {
+      "home": {
+        "title": "Cap De Tais",
+        "createLabel": "Create a new Cap De Tai",
+        "createOrEditLabel": "Create or edit a Cap De Tai",
+        "notFound": "No Cap De Tais found"
+      },
+      "created": "A new Cap De Tai is created with identifier {{ param }}",
+      "updated": "A Cap De Tai is updated with identifier {{ param }}",
+      "deleted": "A Cap De Tai is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Cap De Tai {{ id }}?"
+      },
+      "detail": {
+        "title": "Cap De Tai"
+      },
+      "tenCapDeTai": "Ten Cap De Tai",
+      "deTai": "De Tai"
+    }
+  }
+}
